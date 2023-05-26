@@ -1,0 +1,24 @@
+{
+  "name": "my-component",
+  "version": "1.0.0",
+  "description": "vue3 vite 组件开发 demo",
+  "main": "lib/my-component.umd.js",
+  "module": "lib/my-component.es.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "build-lib": "vite build --mode lib",
+    "prepublishOnly": "npm run build"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "vite": "^4.3.9",
+    "vue": "^3.2.36"
+  },
+  "dependencies": {
+    "@vitejs/plugin-vue": "^4.2.3"
+  }
+}
